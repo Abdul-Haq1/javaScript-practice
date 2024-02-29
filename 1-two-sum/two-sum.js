@@ -15,6 +15,8 @@
 //     }
 // };
 
+
+// Two Pointers Approach (O(n log n))
 function twoSum(nums, target) {
     let numsWithIndices = nums.map((num, index) => ({ num, index }));
 
