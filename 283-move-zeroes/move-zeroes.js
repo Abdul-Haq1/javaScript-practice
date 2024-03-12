@@ -23,3 +23,19 @@ var moveZeroes = function(nums) {
         }
     }
 };
+
+// function moveZeroes(nums) {
+//     let nonZeroIdx = 0; // Pointer for the next non-zero element
+//     for (let i = 0; i < nums.length; i++) {
+//         if (nums[i] !== 0) {
+//             // If the current element is non-zero,
+//             // swap it with the element at nonZeroIdx
+//             let temp = nums[i];
+//             nums[i] = nums[nonZeroIdx];
+//             nums[nonZeroIdx] = temp;
+//             nonZeroIdx++; // Move the pointer for the next non-zero element
+//         }
+//     }
+//     return nums;
+// }
+
